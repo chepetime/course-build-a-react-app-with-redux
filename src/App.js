@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,11 +17,8 @@ class App extends Component {
         </header>
 
         <div className="Todo-App">
-          <TodoForm
-            currentTodo={this.props.currentTodo}
-            changecurrent={this.props.changecurrent}
-            />
-          <TodoList todos={this.props.todos}/>
+          <TodoForm />
+          <TodoList />
         </div>
 
       </div>
@@ -28,4 +26,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
