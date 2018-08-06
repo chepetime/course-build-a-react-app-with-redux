@@ -3,41 +3,58 @@
     {
       "id": 1,
       "name": "configure",
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 2,
       "name": "start server",
-      "isComplete": false
-    },
-    {
-      "id": 3,
-      "name": "load data",
-      "isComplete": false
+      "isComplete": true,
+      "isCompleted": true
     },
     {
       "id": 4,
       "name": "add records",
-      "isComplete": false
+      "isComplete": true
     },
     {
-      "id": 5,
-      "name": "update a record",
-      "isComplete": false
+      "name": "element 1",
+      "isComplete": false,
+      "id": 5
     },
     {
+      "name": "element 2",
       "isComplete": false,
       "id": 6
     },
     {
-      "name": "test",
-      "isComplete": false,
+      "name": "element 3",
+      "isComplete": true,
       "id": 7
     },
     {
-      "name": "Submit",
-      "isComplete": false,
+      "name": "element 4",
+      "isComplete": true,
       "id": 8
+    },
+    {
+      "name": "element 5",
+      "isComplete": true,
+      "id": 9
+    },
+    {
+      "name": "element 6",
+      "isComplete": false,
+      "id": 10
+    },
+    {
+      "name": "element 7",
+      "isComplete": false,
+      "id": 11
+    },
+    {
+      "name": "element 8",
+      "isComplete": false,
+      "id": 12
     }
   ]
 }
